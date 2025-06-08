@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiwid Bouquet - Produk</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/a1.png" alt="Logo" />
+                <span>WIWID BOUQUET</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i>Beranda</a></li>
+                <li><a href="produk.html" class="active"><i class="fas fa-paper-plane"></i>Produk</a></li>
+                <li><a href="keranjang.html"><i class="fas fa-shopping-cart"></i>Keranjang<span class="cart-count">1</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form method="POST" action="produk.html">
+            <div class="categories">
+                <button type="submit" name="kategori" value="semua" class="category active">Semua</button>
+                <button type="submit" name="kategori" value="1" class="category"> Bunga Fresh</button>
+                <button type="submit" name="kategori" value="2" class="category"> Bunga Artificial</button>
+                <button type="submit" name="kategori" value="3" class="category"> Uang </button>
+            </div>
+        </form>
+
+        <ul class="product-list">
+            
+                <li class="product">
+                    <div class="product-image">
+                        <img src="images/flower_item_1.jpg" alt="flower_item_1" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Bouquet Fresh Flower </h2>
+                        <span class="product-price"> </span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i> Beli</button>
+                        </div>
+                    </div>
+                </li>
+
+                 <li class="product">
+                    <div class="product-image">
+                        <img src="images/flower_item_2.jpg" alt="flower_item_1" />
+                    </div>
+                    <div class="product-content">
+                        <h2> Bouquet Artificial </h2>
+                        <span class="product-price"></span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i> Beli</button>
+                        </div>
+                    </div>
+                </li>
+
+                 <li class="product">
+                    <div class="product-image">
+                        <img src="images/flower_item_3.jpg" alt="flower_item_1" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Bouquet balon </h2>
+                        <span class="product-price"></span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i> Beli</button>
+                        </div>
+                    </div>
+                </li>
+
+                 <li class="product">
+                    <div class="product-image">
+                        <img src="images/flower_item_5.jpeg" alt="flower_item_1" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Money Bouquet</h2>
+                        <span class="product-price"></span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i> Beli</button>
+                        </div>
+                    </div>
+                </li>
+
+                 <li class="product">
+                    <div class="product-image">
+                        <img src="images/flower_item_6.jpeg" alt="flower_item_1" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Snack Tart / Money Tart</h2>
+                        <span class="product-price">Rp. 75.000 </span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i> Beli</button>
+                        </div>
+                    </div>
+                </li>
+
+                 <li class="product">
+                    <div class="product-image">
+                        <img src="images/flower_item_4.jpeg" alt="flower_item_1" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Hampers</h2>
+                        <span class="product-price">Rp. 75.000 </span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i> Beli</button>
+                        </div>
+                    </div>
+                </li>
+
+        </ul>
+    </main>
+</body>
+
+</html>
