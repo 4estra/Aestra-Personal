@@ -19,7 +19,7 @@
 body {
   background-color: #f9f7fe;
   color: var(--dark);
-  line-height: 1.6;
+  line-height: 1.6; 
 }
 
 .header {
@@ -824,7 +824,10 @@ footer {
   padding: 40px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   max-width: 450px;
-  margin: 0 auto;        }
+  margin: 0 auto;
+  animation: fadeIn 1s ease-out forwards; /* 1 second duration, ease-out timing, maintains final state */
+  opacity: 0;
+        }
 
         /* Form title styling */
         .order-form-container h2 {
@@ -1022,5 +1025,20 @@ footer {
             .cart-table-container h2 {
                 font-size: 22px;
                 margin-bottom: 20px;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth; /* This is the key CSS property for smooth scrolling */
+        }
+
+         @keyframes fadeIn {
+            from {
+                opacity: 0; /* Start completely transparent */
+                transform: translateY(20px); /* Start slightly below its final position */
+            }
+            to {
+                opacity: 1; /* End fully opaque */
+                transform: translateY(0); /* End at its original position */
             }
         }
