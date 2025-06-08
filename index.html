@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouquet Shop - Buket Terlengkap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo"><img src="images/a1.png" alt="Logo" />
+                <span>WIWID BOUQUET</span>
+            </a>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html" class="active"><i class="fas fa-home"></i>Beranda</a>
+                </li>
+                <li>
+                    <a href="produk.html"><i class="fas fa-paper-plane"></i>Produk</a>
+                </li>
+                <li>
+                    <a href="keranjang.html"><i class="fas fa-shopping-cart"></i>Keranjang<span
+                            class="cart-count">1</span></a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="beranda" class="page-content active">
+            <section class="hero">
+                <section class="overlay">
+                <h1>Selamat Datang di Wiwid Bouquete</h1>
+                <p><i>
+                    Mengirimkan bukan hanya bunga, tapi juga perasaan. </i>
+<br>
+<br>
+Setiap tangkai bunga kami adalah ungkapan cinta, harapan, dan perhatian.
+Dari momen bahagia hingga saat penuh haru, kami hadir untuk merangkai cerita Anda dalam keindahan yang tak terlupakan.
+Temukan buket yang bukan hanya indah dipandang, tapi juga hangat di hati.
+                </p>
+                <div class="hero-buttons">
+                    <a href="produk.html" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Belanja Sekarang</a>
+                    <a href="kontak.html" class="btn btn-outline"><i class="fas fa-clock"></i>Jadwal Buka</a>
+                </div>
+                </section>
+            </section>
+            <form method="POST" action="produk.html">
+                <div class="categories">
+                    <button type="submit" name="kategori" value="semua" class="category active">Unggulan</button>
+                    <button type="submit" name="kategori" value="1" class="category">Kategori A</button>
+                    <button type="submit" name="kategori" value="2" class="category">Kategori B</button>
+                </div>
+            </form>
+            <h1 class="section-title">Produk Unggulan</h1>
+            <ul class="product-list">
+                <li class="product">
+                    <div class="product-badge">Terlaris</div>
+                    <div class="product-image">
+                        <img
+                            src="images/flower_item_1.jpg"
+                            alt="Item 1" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Bouquet Bunga</h2>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(0)</span>
+                        </div>
+                        <span class="product-price">start Rp 75.000 </span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <a href="pesan.html" class="btn btn-primary">
+                                <i class="fas fa-cart-plus"></i> Beli</a>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="product">
+                    <div class="product-badge">Baru</div>
+                    <div class="product-image">
+                        <img
+                            src="images/flower_item_2.jpg"
+                            alt="Item 2" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Bouquet Artificial</h2>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(28)</span>
+                        </div>
+                        <span class="product-price">start Rp 75.000</span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <a href="pesan.html" class="btn btn-primary">
+                                <i class="fas fa-cart-plus"></i> Beli</a>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="product">
+                    <div class="product-image">
+                        <img
+                            src="images/flower_item_3.jpg"
+                            alt="Item 3" />
+                    </div>
+                    <div class="product-content">
+                        <h2>Bouquet balon</h2>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(56)</span>
+                        </div>
+                        <span class="product-price">start Rp 250.000</span>
+                        <div class="product-buttons">
+                            <a href="detail-produk.html" class="btn btn-outline"><i class="fas fa-info-circle"></i> Detail</a>
+                            <a href="pesan.html" class="btn btn-primary"> 
+                                <i class="fas fa-cart-plus"></i> Beli </a>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Wiwid Bouquet</h3>
+                <p>
+                    Temukan koleksi terbaik kami dan berikan hadiah yang berbicara lebih dari sekadar kata-kata. 🌸💐
+
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/p/DIix-vYS_Vw/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/085736834477"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Kontak Kami</h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="https://maps.app.goo.gl/DY5EFgiiFv8D2txN7"><i class="fas fa-map-marker-alt"></i>RT. 01, RT.01/RW.TW. 03, Talok, Pojok, Kec. Garum, Kabupaten Blitar, Jawa Timur 66182</a>
+                    </li>
+                    <li>
+                        <a href="tel:+628123456789"><i class="fas fa-phone-alt"></i> 0857-3683-4477</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@petlovers.com"><i class="fas fa-envelope"></i> info@petlovers.com</a>
+                    </li>
+                    <li>
+                        <a href="kontak.html"><i class="fas fa-clock"></i> Buka Setiap Senin - Jum'at <br> 08:00 - 16:00</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">&copy; 2025 Wiwid Bouquet. Hak Cipta Dilindungi.</div>
+    </footer>
+</body>
+
+</html>
